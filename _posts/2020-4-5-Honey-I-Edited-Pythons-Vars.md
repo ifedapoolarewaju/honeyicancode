@@ -90,7 +90,11 @@ def as_dict(dealership: Dealership):
 
 **Sam:** Why not? Doesn't it return a new Dictionary all the time?
 
-**Honey:** err... no it doesn't. It returns the `__dict__` value of that object. So in your case, it returns `dealership.__dict__`. And if you modify that, you are essesntially modifying that object. Because the `__dict__` value is a reference to the fields of that object.
+**Honey:** err... no it doesn't. It returns the `__dict__` value of that object. So in your case, it returns `dealership.__dict__` ...
+
+**Sam:** \*confused\*
+
+**Honey:** ... And if you modify that, you are essesntially modifying that object. Because the `__dict__` value is a reference to the fields of that object.
 
 **Sam:** \*confused\*
 
