@@ -45,6 +45,13 @@ title: Honey, I edited Python's Vars()
 
 **Honey:** Hmm, let me have a look at the object in question. \*Walks down to Sam's Computer*\
 
+```python
+class Dealership:
+  def __init__(self, stores):
+    self.car = Car()
+    self.stores = stores
+```
+
 **Honey:** Yeah, I get it now. \*Heads back to unpacking groceries\*
 
 **Honey:** So what's the problem with converting that object and its fields into a dictionary?
